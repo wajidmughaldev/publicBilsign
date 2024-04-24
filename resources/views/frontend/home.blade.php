@@ -12,7 +12,7 @@
             <!-- Content -->
 
             <div class="content d-flex flex-column justify-content-center h-100">
-                <h1 class="display-5 fw-normal text-center">Digital opprettelse av <b class="primary-color-1">kontrakt</b> & <b class="secondary-color-1">signering</b> for bilbransjen på en enkel måte i én løsning</h1>
+                <h1 class="display-5 fw-normal text-center">Digital opprettelse av <b class="primary-color-1">kontrakt</b> & <b class="secondary-color-1">signering</b> forbilbransjen på en enkel måte i én løsning</h1>
             </div>
             <center><a href="#" class="primary-btn-1">Prøv BilSign i dag!</a></center>
         </div>
@@ -149,7 +149,7 @@
                             <h1 class="contact_h1">Bank-ID signering</h1>
                             <p class="mt-3">
                                 Gi kundene dine en best mulig signeringspplevelsen!
-                                Det er ikke lenger behov for kunden å være hos deg  for signering.
+                                Det er ikke lenger behov for kunden å være hos deg for signering.
                                 Med BilSign signerer kundene dine hvor som helst!
                             </p>
                         </div>
