@@ -6,7 +6,7 @@
 
 <!-- Banner Section -->
 <div class="container">
-    <h1>Hello</h1>
+    
     <div class="row mt-4">
         <div class="col-md-12">
             <!-- Content -->
