@@ -6,8 +6,7 @@
 
 <!-- Banner Section -->
 <div class="container">
-    <h1>hello</h1>
-    <div class="row mt-4">
+    <div class="row mt-4 justify-content-center ">
         <div class="col-md-12">
             <!-- Content -->
 
@@ -17,10 +16,10 @@
             <center><a href="#" class="primary-btn-1">Prøv BilSign i dag!</a></center>
         </div>
 
-        <div class="col-md-12 position-relative bg-gradient-1 rounded-4 pt-5 pb-5 mt-7">
+        <div class="col-md-10 position-relative bg-gradient-1 rounded-4 pt-5 pb-5 mt-7">
             <!-- Image Content -->
             <img src="{{asset('frontend/images/tag.png')}}" class="position-absolute top-0 end-0" alt="">
-            <center><img src="{{asset('frontend/images/dashboard-1.png')}}" alt="Banner Image" class="img-fluid" /></center>
+            <center><img src="{{asset('frontend/images/dashboard-1.png')}}" alt="Banner Image" class="img-fluid " /></center>
         </div>
 
     </div>
@@ -32,13 +31,13 @@
 
 
 <!-- Testimonial Section -->
-<div class="container">
-    <div class="row mt-4">
+<div class="container ">
+    <div class="row mt-5">
         <div class="col-md-12">
             <p class="text-center font-size-22 mt-2 mb-5">Over 200 selskaper stoler på BilSign</p>
             <div class="d-flex flex-wrap justify-content-between">
-                <div class="testimonial-width"><img src="{{asset('frontend/images/testimonial-1.png')}}" class="img-fluid" alt="testimonials"></div>
-                <div class="testimonial-width"><img src="{{asset('frontend/images/testimonial-2.png')}}" class="img-fluid" alt="testimonials"></div>
+                <div class="testimonial-width"><img src="{{asset('frontend/images/aktivformilding.png')}}" class="img-fluid" alt="testimonials"></div>
+                <!-- <div class="testimonial-width"><img src="{{asset('frontend/images/testimonial-2.png')}}" class="img-fluid" alt="testimonials"></div> -->
                 <div class="testimonial-width"><img src="{{asset('frontend/images/testimonial-3.png')}}" class="img-fluid" alt="testimonials"></div>
                 <div class="testimonial-width"><img src="{{asset('frontend/images/testimonial-4.png')}}" class="img-fluid" alt="testimonials"></div>
                 <div class="testimonial-width"><img src="{{asset('frontend/images/testimonial-5.png')}}" class="img-fluid" alt="testimonials"></div>
@@ -51,37 +50,43 @@
 
 <!-- Info Section -->
 <section class="container">
-    <div class="row mt-4">
+    <div class="row mt-5">
         <div class="col-md-12">
             <p class="text-center primary-color-1 font-size-35 mt-2 mb-5">Sende dokumenter for signering<br> på få minutter </p>
-            <div class="d-flex flex-wrap justify-content-between align-items-center">
-                <div class="info-width"><img src="{{asset('frontend/images/card-1.png')}}" class="img-fluid" alt="testimonials"></div>
-                <div class="info-width"><img src="{{asset('frontend/images/shape-1.png')}}" class="img-fluid" alt="testimonials"></div>
-                <div class="info-width"><img src="{{asset('frontend/images/card-2.png')}}" class="img-fluid" alt="testimonials"></div>
-                <div class="info-width"><img src="{{asset('frontend/images/shape-2.png')}}" class="img-fluid" alt="testimonials"></div>
-                <div class="info-width"><img src="{{asset('frontend/images/card-3.png')}}" class="img-fluid" alt="testimonials"></div>
-                <div class="info-width"><img src="{{asset('frontend/images/shape-3.png')}}" class="img-fluid" alt="testimonials"></div>
-                <div class="info-width"><img src="{{asset('frontend/images/card-4.png')}}" class="img-fluid" alt="testimonials"></div>
-            </div>
-
-            <div class="d-flex flex-wrap justify-content-between align-items-center">
-                <div class="info-width-1">
+            <div class="workingSteps d-flex flex-wrap flex-md-nowrap justify-content-center align-items-start ">
+                <div class="stepCard">
+                    <img src="{{asset('frontend/images/card-1.png')}}" class="img-fluid w-75" alt="testimonials">
                     <p>Opprett digital kontrakt!</p>
                 </div>
-                <div class="info-width-1">
+                <div class="linkImg d-none d-lg-block">
+                    <img src="{{asset('frontend/images/shape-1.png')}}" class="img-fluid  step1img" alt="testimonials">
+                </div>
+                <div class="stepCard">
+                    <img src="{{asset('frontend/images/card-2.png')}}" class="img-fluid w-75" alt="testimonials">
                     <p>Legg inn kontaktinformasjonen til
                         personene som skal motta og signere avtalen.</p>
                 </div>
-                <div class="info-width-1">
+                <div class="linkImg d-none d-lg-block">
+                    <img src="{{asset('frontend/images/shape-2.png')}}" class="img-fluid step2img" alt="testimonials">
+                </div>
+
+                <div class="stepCard">
+                    <img src="{{asset('frontend/images/card-3.png')}}" class="img-fluid w-75" alt="testimonials">
                     <p>Send dokumentene og
                         overvåk signeringsfremdriften</p>
                 </div>
-                <div class="info-width-1 info-width-2">
+                <div class="linkImg d-none d-lg-block">
+                    <img src="{{asset('frontend/images/shape-1.png')}}" class="img-fluid step1img" alt="testimonials">
+                </div>
+                <div class="stepCard">
+                    <img src="{{asset('frontend/images/card-4.png')}}" class="img-fluid w-75" alt="testimonials">
                     <p>Lagre og organsier dokumentene
                         dine sikkert i mapper</p>
                 </div>
             </div>
+
         </div>
+    </div>
     </div>
 </section>
 
@@ -126,11 +131,11 @@
     <div class="row mt-5">
         <div class="col-md-12">
             <p class="text-center primary-color-1 font-size-35 mt-5 mb-5">Alle funksjonene som sparer deg for tid</p>
-            <div class="row">
+            <div class="row  ">
                 <div class="col-md-7 ">
                     <img src="{{asset('frontend/images/contactinfo.png')}}" class="img-fluid">
                 </div>
-                <div class="col-md-5">
+                <div class="col-md-5 mt-3 mt-md-0">
                     <div class="d-flex flex-wrap justify-content-center align-items-baseline">
                         <div class="p-2 mw-20">
                             <img src="{{asset('frontend/images/contact_icon1.png')}}" class="img-fluid">
@@ -179,12 +184,12 @@
 
 <!-- Specs Section -->
 <section class="container">
-    <div class="row mt-5">
+    <div class="row mt-0 mt-md-5">
         <div class="col-md-12 mt-5">
 
             <div class="row d-flex justify-content-center align-items-center">
-                <div class="col-md-6 ">
-                    <h2 class="display-4 primary-color-1 text-center ">
+                <div class="col-md-6 order-last order-sm-first ">
+                    <h2 class="display-4 primary-color-1 text-center mt-3 mt-md-0 ">
                         Prøv BilSign GRATIS i <br>30 dager
                     </h2>
                     <ul class="list-unstyled mt-5 mb-5">
@@ -216,7 +221,7 @@
                     <a href="#" class="primary-btn-2">Opprett forhandlerkonto</a>
                 </div>
 
-                <div class="col-md-6">
+                <div class="col-md-6 order-first order-sm-last">
                     <img src="{{asset('frontend/images/specs.png')}}" class="img-fluid">
                 </div>
             </div>
@@ -233,7 +238,7 @@
             <div class="row">
 
                 <div class="col-md-4 ">
-                    <div class="stats_card">
+                    <div class="stats_card mb-3 mb-sm-0 ">
                         <img src="{{asset('frontend/images/arrow-down.png')}}" class="img-fluid">
                         <h1 class="stats_h primary-color-1">60%</h1>
                         <p class="stats_p primary-color-1">Redusert papirarbeid</p>
@@ -241,7 +246,7 @@
                 </div>
 
                 <div class="col-md-4">
-                    <div class="stats_card">
+                    <div class="stats_card mb-3 mb-sm-0">
                         <img src="{{asset('frontend/images/arrow-up.png')}}" class="img-fluid">
                         <h1 class="stats_h primary-color-1">90%</h1>
                         <p class="stats_p primary-color-1">Raskere behandling</p>
@@ -249,7 +254,7 @@
                 </div>
 
                 <div class="col-md-4">
-                    <div class="stats_card">
+                    <div class="stats_card mb-3 mb-sm-0">
                         <img src="{{asset('frontend/images/arrow-down.png')}}" class="img-fluid">
                         <h1 class="stats_h primary-color-1">60%</h1>
                         <p class="stats_p primary-color-1">Økning i produktivitet</p>
