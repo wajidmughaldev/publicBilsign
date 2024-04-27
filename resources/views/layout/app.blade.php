@@ -164,7 +164,7 @@
   <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
   <script src="{{asset('frontend/assets/vendor/purecounter/purecounter_vanilla.js')}}"></script>
   <script src="{{asset('frontend/assets/vendor/aos/aos.js')}}"></script>
-  <script src="{{asset('frontend/assets/vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+  <!-- <script src="{{asset('frontend/assets/vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script> -->
   <script src="{{asset('frontend/assets/vendor/glightbox/js/glightbox.min.js')}}"></script>
   <script src="{{asset('frontend/assets/vendor/isotope-layout/isotope.pkgd.min.js')}}"></script>
   <script src="{{asset('frontend/assets/vendor/swiper/swiper-bundle.min.js')}}"></script>
@@ -172,11 +172,11 @@
 
   <!-- Template Main JS File -->
   <script src="{{asset('frontend/assets/js/main.js')}}"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha384-WJx2x81h8f1I51wbV9vG+Jjz/sL4XNUa2NR8PkUjV2W/SpKEOZ5FKbt5pZsiaIvU" crossorigin="anonymous"></script>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha384-WJx2x81h8f1I51wbV9vG+Jjz/sL4XNUa2NR8PkUjV2W/SpKEOZ5FKbt5pZsiaIvU" crossorigin="anonymous"></script> -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.8/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   <!-- Bootstrap JS -->
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+  <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script> -->
 
 </body>
 
